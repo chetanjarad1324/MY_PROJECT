@@ -5,5 +5,7 @@ declare
 var_a varchar2(30);
 
 begin
+
+var_a:='Hello world';
  dbms_output.put_line(var_a);
 end;
