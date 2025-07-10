@@ -1,0 +1,9 @@
+set serveroutput on;
+
+declare
+
+var_a varchar2(30);
+
+begin
+ dbms_output.put_line(var_a);
+end;
